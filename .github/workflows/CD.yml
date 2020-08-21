@@ -1,4 +1,4 @@
-name: Node CD
+name: Node.js CD
 
 on:
   push:
