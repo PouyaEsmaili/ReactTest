@@ -29,4 +29,5 @@ jobs:
        port: ${{ secrets.REMOTE_PORT }}
        key: ${{ secrets.SSH_PRIVATE_KEY }}
        source: "build/*"
+       rm: true
        target: "${{ secrets.REMOTE_TARGET }}"
